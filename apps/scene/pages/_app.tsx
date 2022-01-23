@@ -6,7 +6,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Welcome to scene!</title>
+        <title>erias 404 Pages</title>
       </Head>
       <main className="app">
         <Component {...pageProps} />
