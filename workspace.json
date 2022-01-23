@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "scene": "apps/scene",
+    "scene-e2e": "apps/scene-e2e"
+  }
+}

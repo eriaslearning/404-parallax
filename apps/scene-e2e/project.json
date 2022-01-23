@@ -1,0 +1,28 @@
+{
+  "root": "apps/scene-e2e",
+  "sourceRoot": "apps/scene-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/scene-e2e/cypress.json",
+        "devServerTarget": "scene:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "scene:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/scene-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["scene"]
+}
