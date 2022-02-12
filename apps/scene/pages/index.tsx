@@ -89,10 +89,12 @@ function Error404Page() {
           <div className="text">
             <article>
               <p>
-                Uh oh! Looks like you got lost. <br />
-                Go back to the homepage if you dare!
+                This website is currently under maintanance <br />
+                Please check back later if you dare!
               </p>
-              <button>i dare!</button>
+              <button>
+                <a href="">i dare!</a>
+              </button>
             </article>
           </div>
         </div>
